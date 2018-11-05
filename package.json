@@ -55,7 +55,7 @@
     "@parity/api": "2.1.x",
     "bignumber.js": "8.0.1",
     "es6-promise": "^4.1.1",
-    "node-fetch": "^1.6.3",
+    "node-fetch": "^2.2.1",
     "qs": "^6.5.0",
     "whatwg-fetch": "^2.0.3"
   }
