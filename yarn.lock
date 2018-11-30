@@ -16,27 +16,27 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@parity/abi@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-3.0.1.tgz#7cd2bdaab2a798ce3480a6630164cd1ce1ed6448"
+"@parity/abi@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-3.0.5.tgz#8efab868aa197aa3ad89123c54016106d1a2e7c3"
   dependencies:
-    bignumber.js "7.2.1"
+    bignumber.js "^8.0.1"
     js-sha3 "0.7.0"
     utf8 "^3.0.0"
 
 "@parity/api@3.0.x":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@parity/api/-/api-3.0.1.tgz#fa07c1b6357a1516318121b926d8236b0e3860d8"
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@parity/api/-/api-3.0.5.tgz#bfc44b149dbbe038226e2ebe2d6f714efe3896a0"
   dependencies:
-    "@parity/abi" "^3.0.1"
-    bignumber.js "^7"
+    "@parity/abi" "^3.0.5"
+    bignumber.js "^8.0.1"
     blockies "0.0.2"
     es6-error "4.0.2"
     es6-promise "^4.1.1"
-    eventemitter3 "^2.0.2"
+    eventemitter3 "^3.1.0"
     isomorphic-fetch "^2.2.1"
     js-sha3 "0.5.5"
-    lodash "^4.17.4"
+    lodash "^4.17.11"
     store "^2.0.12"
     websocket "^1.0.25"
 
@@ -829,11 +829,7 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-bignumber.js@7.2.1, bignumber.js@^7:
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-7.2.1.tgz#80c048759d826800807c4bfd521e50edbba57a5f"
-
-bignumber.js@8.0.1:
+bignumber.js@8.0.1, bignumber.js@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-8.0.1.tgz#5d419191370fb558c64e3e5f70d68e5947138832"
 
@@ -1371,9 +1367,9 @@ esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
 
-eventemitter3@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-2.0.3.tgz#b5e1079b59fb5e1ba2771c0a993be060a58c99ba"
+eventemitter3@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.0.tgz#090b4d6cdbd645ed10bf750d4b5407942d7ba163"
 
 expand-brackets@^0.1.4:
   version "0.1.5"
@@ -2022,7 +2018,7 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
