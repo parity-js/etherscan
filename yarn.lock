@@ -16,19 +16,19 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@parity/abi@^5.1.13":
-  version "5.1.13"
-  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-5.1.13.tgz#256e8ee553d61ede4c94b766c3d3c67fbda685e9"
+"@parity/abi@^5.1.14":
+  version "5.1.14"
+  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-5.1.14.tgz#732046071273b9ab05ce57b7dd881150872b2562"
   dependencies:
     bignumber.js "^8.0.1"
     js-sha3 "0.8.0"
     utf8 "^3.0.0"
 
 "@parity/api@5.1.x":
-  version "5.1.13"
-  resolved "https://registry.yarnpkg.com/@parity/api/-/api-5.1.13.tgz#a9775eac4cb674a9e93a025d7795c933500eea61"
+  version "5.1.14"
+  resolved "https://registry.yarnpkg.com/@parity/api/-/api-5.1.14.tgz#b9a5ae815d14ee9111f7a3501a71dcf31f3d458b"
   dependencies:
-    "@parity/abi" "^5.1.13"
+    "@parity/abi" "^5.1.14"
     bignumber.js "^8.0.1"
     blockies "0.0.2"
     es6-error "4.0.2"
